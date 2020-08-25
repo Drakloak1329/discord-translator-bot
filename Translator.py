@@ -19,6 +19,6 @@ aysnc def no_command(ctx):
 @bot.command(" text")
 async def on_text(ctx, args):
   tran=trn.translate(text)
-  await bot.say(f"From : {lang[tran.src]}\nTo : {tran.text.escape()
+  await bot.say(f"From : {lang[tran.src]}\nText : `{tran.text.escape()}`")
 
 bot.run(tok)
