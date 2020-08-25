@@ -3,9 +3,9 @@ import discord as d
 from discord.ext import commands as com
 import googletrans as g
 
-bot= com.Bot(prefix="translate",description="翻訳者ボットは素晴らしいですね。, Use 'translator text <text>' to translate.")
+bot= com.Bot(command_prefix="translate",description="翻訳者ボットは素晴らしいですね。, Use 'translator text <text>' to translate.")
 trn=g.Translator()
-lng=r.LANGUAGES
+lng=g.LANGUAGES
 tok="NzM2NjA2NDkxMzU1NjQzOTU0.XxxQQQ.MUzRCBJMwLNDTzlLc8THUFUb7o8"
 
 @bot.event
