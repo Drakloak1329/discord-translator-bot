@@ -1,3 +1,6 @@
 [tool.poetry.dependencies]
+python="3.8.0"
+
+[tool.poetry.dev-dependencies]
 discord.py="1.4.1"
 googletrans="3.0.0"
