@@ -13,7 +13,7 @@ async def on_ready():
   print(">>> Logged in as "+bot.user.name)
 
 @bot.command()
-aysnc def no_command(ctx):
+async def no_command(ctx):
   await bot.say("Feature not made yet.")
 
 @bot.command(" text")
