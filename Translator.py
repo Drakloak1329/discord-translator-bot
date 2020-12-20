@@ -6,7 +6,7 @@ import googletrans as gTrans
 bot= com.Bot(command_prefix="translate",description="翻訳者ボットは素晴らしいですね。, Use 'translator text <text>' to translate.")
 translator=gTrans.Translator()
 langs=gTrans.LANGUAGES
-token="NzM2NjA2NDkxMzU1NjQzOTU0.XxxQQQ.JyIDQ3O8uXPkMqiE01GVYN2Cq34"
+token=""
 
 @bot.event
 async def on_ready():
